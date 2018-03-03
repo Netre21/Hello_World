@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-cout<<"WITAJ W SWIECIE WOJNY";
+cout<<"WITAJ W SWIECIE WOJNY LUDZI";
 Statystyki Paladyn;
 Paladyn.pocz();
 for(int i=0;i<8;i++)
