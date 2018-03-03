@@ -2,7 +2,7 @@
 using namespace std;
 dod(int a, int b)
 {
-cout<<"wywolana;
+cout<<"wywolana tutaj;
 return(a+b);
 }
 class Statystyki
