@@ -1,34 +1,29 @@
 #include<iostream>
 using namespace std;
-class Statystyki
-    {
-    int w=0;
-    int s=0;
-    int mm=0;
-    int o=0;
-public:
+class statysss
+{
     void pocz()
         {
         cout<<"Hello World \n";
         }
-    void czytaj()
+    void czytaj(int w)
         {
         w=w+1;
         }
-    void trenuj()
+    void trenuj(int s)
         {
         s=s+1;
         }
-    void studiuj()
+    void studiuj(int mm)
         {
         mm=mm+1;
         }
-    void bron()
+    void bron(int o)
         {
         o=o+1;
         }
-    void podglad()
+    void podglad(int w, int s, int mm, int o)
         {
         cout<<"wiedza="<<w<<endl<<"sila="<<s<<endl<<"Moc magiczna="<<mm<<endl<<"Obrona="<<o;
         }
-    };
+};

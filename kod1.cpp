@@ -1,32 +1,34 @@
-#include "dodaw.h"
-#include<iostream>
+#include "dodawanie.h"
+#include <iostream>
+
 using namespace std;
+
 int main()
 {
+staty rycerz;
 cout<<"WITAJ W SWIECIE WOJNY LUDZI";
-Statystyki Paladyn;
-Paladyn.pocz();
+rycerz.pocz();
 while(1)
     {
     int i1,i2,i3,i4;
     cin>>i1>>i2>>i3>>i4;
     for(int i=0;i<i1;i++)
         {
-        Paladyn.czytaj();
+        rycerz.czytaj();
         }
     for(int i=0;i<i2;i++)
         {
-        Paladyn.trenuj();
+        rycerz.trenuj();
         }
     for(int i=0;i<i3;i++)
         {
-        Paladyn.studiuj();
+        rycerz.studiuj();
         }
     for(int i=0;i<i4;i++)
         {
-        Paladyn.bron();
+        rycerz.bron();
         }
-    Paladyn.podglad();
+    rycerz.podglad();
     cout<<endl;
     }
 }
