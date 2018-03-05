@@ -1,11 +1,8 @@
-__start__: a.out
-    ./a.out
-
-a.out: kod1.o dodaw.o
-    g++ kod1.o dodaw.o
+wykon: kod1.o dodaw.o
+    gcc kod1.o dodaw.o -o wykon
 kod1.o: kod1.cpp dodaw.h
-    g++ -c -Wall pedantic kod1.cpp
+    gcc -Wall -c kod1.cpp -o kod1.o
 dodaw.o: dodaw.cpp dodaw.h
-    g++ -c -Wall pedantic dodaw.cpp
+    gcc -Wall -c dodaw.cpp -o dodaw.o
 clean:
-    rm edit kod1.o dodaw.o
+    rm kod1.o dodaw.o
