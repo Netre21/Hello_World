@@ -6,21 +6,27 @@ int main()
 cout<<"WITAJ W SWIECIE WOJNY LUDZI";
 Statystyki Paladyn;
 Paladyn.pocz();
-for(int i=0;i<8;i++)
+while(1)
     {
-    Paladyn.czytaj();
+    int i1,i2,i3,i4;
+    cin>>i1>>i2>>i3>>i4;
+    for(int i=0;i<i1;i++)
+        {
+        Paladyn.czytaj();
+        }
+    for(int i=0;i<i2;i++)
+        {
+        Paladyn.trenuj();
+        }
+    for(int i=0;i<i3;i++)
+        {
+        Paladyn.studiuj();
+        }
+    for(int i=0;i<i4;i++)
+        {
+        Paladyn.bron();
+        }
+    Paladyn.podglad();
+    cout<<endl;
     }
-for(int i=0;i<5;i++)
-    {
-    Paladyn.trenuj();
-    }
-for(int i=0;i<10;i++)
-    {
-    Paladyn.studiuj();
-    }
-for(int i=0;i<12;i++)
-    {
-    Paladyn.bron();
-    }
-Paladyn.podglad();
 }
