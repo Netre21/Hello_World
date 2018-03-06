@@ -11,4 +11,6 @@ kod1.o: kod1.cpp dodawanie.h
 
 clean:
 	rm -f kod1.o dodawanie.o wykon
+run:
+	./wykon
 
