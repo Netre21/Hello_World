@@ -7,12 +7,9 @@ class staty
 int w=0;
 int s=0;
 int mm=0;
-int o=0;    
+int o=0;
 public:
-void pocz()
-        {
-        cout<<"Hello World \n";
-        }
+void pocz();
     void czytaj()
         {
         w=w+1;
